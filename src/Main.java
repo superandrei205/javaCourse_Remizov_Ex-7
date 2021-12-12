@@ -21,9 +21,11 @@ public class Main {
         System.out.println(a6.getPrice());
         System.out.println(a6.getSeats());
         System.out.println(a6.getEngineCapacity());
+        a6.drive();
 
         Lada priora = new Lada(false, 4, "benzin");
         priora.makeRRR();
+        priora.drive();
         System.out.println(priora.quality);
         Seat seat = new Seat("red", "benzin");
         System.out.println(seat.seats);

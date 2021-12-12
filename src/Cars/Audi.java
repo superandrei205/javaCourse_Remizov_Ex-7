@@ -29,4 +29,9 @@ public class Audi extends Car {
     public double getEngineCapacity() {
         return engineCapacity;
     }
+
+    @Override
+    public void drive() {
+        System.out.println("Едем очень быстро");
+    }
 }

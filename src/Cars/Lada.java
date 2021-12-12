@@ -13,4 +13,10 @@ public class Lada extends Car {
     public void makeRRR (){
         System.out.println("RRRRRR");
     }
+
+    @Override
+    public void drive() {
+        super.stop();
+    }
+
 }
